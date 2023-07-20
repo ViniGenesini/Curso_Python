@@ -4,8 +4,7 @@ while n > 0:
     contador = 0
     total_caracteres_a = 0
     total_caracteres_b = 0
-    A = input()
-    B = input()
+    A, B = (input().split())
     for caracter in A:
         total_caracteres_a += 1
     for caracter in B:
